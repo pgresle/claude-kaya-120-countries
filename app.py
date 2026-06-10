@@ -115,7 +115,7 @@ elif view == "🗺️ Přehled klastrů":
     fig.patch.set_facecolor("white"); ax.set_facecolor("#F8FAFA")
     ax.grid(True, color="white", linewidth=1.0, zorder=0)
     ax.axhline(0, color="#CCCCCC", linewidth=1.0); ax.axvline(0, color="#CCCCCC", linewidth=1.0)
-    highlight = {"United States","Germany","China","India","Russia","Brazil","Vietnam","Ethiopia","Nigeria","Poland","Ukraine","Denmark","South Korea","Indonesia","Iran","Bangladesh","Saudi Arabia"}
+    highlight = {"United States","Germany","China","India","Russia","Brazil","Vietnam","Ethiopia","Nigeria","Poland","Ukraine","Denmark","South Korea","Indonesia","Iran","Bangladesh","Saudi Arabia", "Czechia"}
     for cid, info in CLUSTERS.items():
         sub = summary[summary["cluster"]==cid]
         ax.scatter(sub["energy_per_gdp"], sub["co2_per_energy"], color=info["color"], s=65, alpha=0.85, zorder=3, edgecolors="white", linewidths=0.6, label=info["name"])
