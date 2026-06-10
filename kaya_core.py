@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 CLUSTERS = {
-    1: {"name": "Dekarbonizujici vyspeле ekonomiky", "color": "#0090CA",
+    1: {"name": "Decarbonizing Advanced Economies", "color": "#0090CA",
         "countries": ["United States","Canada","Germany","France","United Kingdom","Spain","Italy","Netherlands","Norway","Sweden","Denmark","Finland","Belgium","Austria","Switzerland","Portugal","Greece","Ireland","Iceland","New Zealand","Australia","Japan","South Korea"]},
     2: {"name": "Rostouci asijske ekonomiky", "color": "#E63B2E",
         "countries": ["China","India","Vietnam","Bangladesh","Indonesia","Philippines","Myanmar","Thailand","Malaysia","Sri Lanka","Cambodia","Laos","Nepal","Mongolia","Taiwan","Hong Kong","Pakistan"]},
