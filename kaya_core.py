@@ -2,30 +2,15 @@ import pandas as pd
 import numpy as np
 
 CLUSTERS = {
-    1: {"name": "Dekarbonizující vyspělé ekonomiky", "color": "#0090CA",
+    1: {"name": "Dekarbonizujici vyspeле ekonomiky", "color": "#0090CA",
         "countries": ["United States","Canada","Germany","France","United Kingdom","Spain","Italy","Netherlands","Norway","Sweden","Denmark","Finland","Belgium","Austria","Switzerland","Portugal","Greece","Ireland","Iceland","New Zealand","Australia","Japan","South Korea"]},
-    2: {"name": "Rostoucí asijské ekonomiky", "color": "#E63B2E",
+    2: {"name": "Rostouci asijske ekonomiky", "color": "#E63B2E",
         "countries": ["China","India","Vietnam","Bangladesh","Indonesia","Philippines","Myanmar","Thailand","Malaysia","Sri Lanka","Cambodia","Laos","Nepal","Mongolia","Taiwan","Hong Kong","Pakistan"]},
-    3: {"name": "Exportéři fosilních paliv", "color": "#F4A11D",
+    3: {"name": "Exporteri fosilnich paliv", "color": "#F4A11D",
         "countries": ["Saudi Arabia","Qatar","Kuwait","Oman","Iraq","Iran","Turkmenistan","Algeria","Libya","Azerbaijan","Trinidad and Tobago","Bahrain"]},
-    4: {"name": "Postsovětská transformace", "color": "#6B3FA0",
+    4: {"name": "Postsovetska transformace", "color": "#6B3FA0",
         "countries": ["Russia","Ukraine","Poland","Czechia","Romania","Bulgaria","Estonia","Belarus","Hungary","Slovakia","Slovenia","Croatia","Latvia","Lithuania","North Macedonia","Albania","Kazakhstan","Uzbekistan"]},
-    5: {"name": "Afrika & Latinská Amerika", "color": "#3BAE2A",
-        "countries": ["Ethiopia","Nigeria","Tanzania","Ghana","Cameroon","Uganda","Zambia","Mozambique","Mali","Niger","Burkina Faso","Senegal","Kenya","Angola","Congo","Gabon","Zimbabwe","Egypt","Morocco","Tunisia","Jordan","Lebanon","Syria","Yemen","Brazil","Colombia","Chile","Argentina","Mexico","Peru","Ecuador","Bolivia","Venezuela","Uruguay","Cuba","Dominican Rep
-cat > kaya_core.py << 'PYEOF'
-import pandas as pd
-import numpy as np
-
-CLUSTERS = {
-    1: {"name": "Dekarbonizující vyspělé ekonomiky", "color": "#0090CA",
-        "countries": ["United States","Canada","Germany","France","United Kingdom","Spain","Italy","Netherlands","Norway","Sweden","Denmark","Finland","Belgium","Austria","Switzerland","Portugal","Greece","Ireland","Iceland","New Zealand","Australia","Japan","South Korea"]},
-    2: {"name": "Rostoucí asijské ekonomiky", "color": "#E63B2E",
-        "countries": ["China","India","Vietnam","Bangladesh","Indonesia","Philippines","Myanmar","Thailand","Malaysia","Sri Lanka","Cambodia","Laos","Nepal","Mongolia","Taiwan","Hong Kong","Pakistan"]},
-    3: {"name": "Exportéři fosilních paliv", "color": "#F4A11D",
-        "countries": ["Saudi Arabia","Qatar","Kuwait","Oman","Iraq","Iran","Turkmenistan","Algeria","Libya","Azerbaijan","Trinidad and Tobago","Bahrain"]},
-    4: {"name": "Postsovětská transformace", "color": "#6B3FA0",
-        "countries": ["Russia","Ukraine","Poland","Czechia","Romania","Bulgaria","Estonia","Belarus","Hungary","Slovakia","Slovenia","Croatia","Latvia","Lithuania","North Macedonia","Albania","Kazakhstan","Uzbekistan"]},
-    5: {"name": "Afrika & Latinská Amerika", "color": "#3BAE2A",
+    5: {"name": "Afrika a Latinska Amerika", "color": "#3BAE2A",
         "countries": ["Ethiopia","Nigeria","Tanzania","Ghana","Cameroon","Uganda","Zambia","Mozambique","Mali","Niger","Burkina Faso","Senegal","Kenya","Angola","Congo","Gabon","Zimbabwe","Egypt","Morocco","Tunisia","Jordan","Lebanon","Syria","Yemen","Brazil","Colombia","Chile","Argentina","Mexico","Peru","Ecuador","Bolivia","Venezuela","Uruguay","Cuba","Dominican Republic","Guatemala","Honduras","El Salvador","Panama","Nicaragua","Costa Rica","Jamaica","Paraguay","South Africa","Singapore"]},
 }
 
@@ -37,7 +22,7 @@ COMPONENT_COLORS = {
 }
 COMPONENT_LABELS = {
     "pop": "Populace", "gdp_per_cap": "HDP/obyvatele",
-    "energy_per_gdp": "Energie/HDP", "co2_per_energy": "CO₂/Energie", "interactions": "Interakce",
+    "energy_per_gdp": "Energie/HDP", "co2_per_energy": "CO2/Energie", "interactions": "Interakce",
 }
 
 DATA_URL = "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv"
