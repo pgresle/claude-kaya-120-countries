@@ -33,7 +33,7 @@ all_countries = sorted(decomps.keys())
 
 with st.sidebar:
     st.markdown("## 🌍 Kaya Explorer")
-    st.markdown("**Fakta o klimatu** · Petra Grešlová")
+    st.markdown("**Pro Fakta o klimatu** · Petra Grešlová")
     st.markdown("---")
     view = st.radio("Pohled", ["🔍 Jednotlivé země", "🗺️ Přehled klastrů", "📊 Srovnání zemí"])
     st.markdown("---")
